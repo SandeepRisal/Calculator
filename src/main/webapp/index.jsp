@@ -22,10 +22,7 @@
             <span class="num" onclick="calc.screen.value+='0'"><i>0</i></span>
             <span class="num" onclick="calc.screen.value+='00'"><i>00</i></span>
             <span class="num" onclick="calc.screen.value+='.'"><i>.</i></span>
-
-<%--            <span class="num equal" onclick="document.calc.screen.value=eval(calc.screen.value)"><i>=</i></span>--%>
             <button type="submit" class="num equal"><i>=</i></button>
-
         </form>
     </div>
 <%@include file="components/footer.jsp"%>
